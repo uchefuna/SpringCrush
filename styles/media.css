@@ -1,0 +1,90 @@
+@media screen and (max-width: 1100px) {
+  .maincontainer {
+    margin: 0;
+  }
+
+  .springheader {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .myprofile {
+    margin: 5% 0;
+  }
+
+  .displaycenter {
+    margin: 0 0 2%;
+    padding: 0 0 4%;
+  }
+
+  .displayscores {
+    margin: 0 0 3%;
+  }
+
+  .scoretext0 {
+    height: 45px;
+  }
+
+  .scoreboard0 {
+    height: 60px;
+  }
+
+  .scoreboard2 {
+    padding: 0 2%;
+  }
+
+  #displaybox {
+    flex-direction: column;
+  }
+
+  .springdivbox1 {
+    order: 1;
+    margin: 0 0 2%;
+  }
+
+  .springdivbox1>div p {
+    font-size: 0.7em;
+  }
+
+  .springdivbox1>div span {
+    padding: 0;
+    font-size: 0.8em;
+    border-radius: 6px;
+    left: 9.5%;
+  }
+
+  .springdivbox2 {
+    order: 2;
+    margin: 0 0 2%;
+  }
+
+  .springdivbox2>div h4 {
+    font-size: 1em;
+    margin: 3% 0;
+  }
+
+  .springdivbox2>div p {
+    font-size: 0.6em;
+  }
+
+  .springdivbox2>div span {
+    font-size: 1.6em;
+  }
+
+  .modalcontainer {
+    padding-top: 300px;
+  }
+
+  #modalcontent {
+    width: 80%;
+    margin: auto;
+  }
+
+  .modalbody input {
+    font-size: 1.5em;
+  }
+
+  .modalfooter>button {
+    font-size: 1em;
+  }
+}

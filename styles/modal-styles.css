@@ -1,0 +1,77 @@
+.modalcontainer {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  padding-top: 170px;
+}
+
+#modalcontent {
+  width: 30%;
+  margin: auto;
+  position: relative;
+  border-radius: 8px;
+  background-color: #020202ea;
+}
+
+.modal-header h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.3em;
+  border-radius: 8px 8px 0 0;
+  padding: 1%;
+  background-color: #18eeca;
+}
+
+.modalbody {
+  padding: 5% 3%;
+  text-align: center;
+  border-left: 1px solid #18eeca;
+  border-right: 1px solid #18eeca;
+}
+
+
+.modalbody div {
+  color: #e48e0d;
+  text-align: center;
+  margin: 0 0 8% 0;
+  font-size: 4em;
+}
+
+.modalbody input {
+  width: 80%;
+  font-size: 2em;
+  margin: 0 0 12% 0;
+  border-radius: 8px;
+  background-color: rgba(250, 250, 250, 0.918);
+}
+
+.modalfooter {
+  border-radius: 0 0 8px 8px;
+  padding: 1%;
+  background-color: rgb(175, 166, 166);
+  text-align: center;
+}
+
+.modalfooter>button {
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.modalfooter>button:nth-child(1) {
+  float: left;
+  background-color: #15cce4;
+}
+
+.modalfooter>button:nth-child(2) {
+  background-color: #f1b6a7;
+}
+
+.modalfooter>button:nth-child(3) {
+  float: right;
+  color: rgb(61, 42, 231);
+}
