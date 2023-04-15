@@ -135,10 +135,7 @@ qml.addEventListener('change', () => {
 //function to initialize the game
 function initProcess() {
   modalBoxCall('Passcode', 'Enter the Passcode');
-
-  // let twowords1 = "Enter the passcode to continue.";
   htmlConsole1[11].innerHTML = "Enter the passcode to continue.";
-
   htmlConsole2[10].innerHTML = '';
   modalBox[0].animate(
     [
